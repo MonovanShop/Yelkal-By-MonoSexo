@@ -9,7 +9,7 @@ handler.all = async function (m) {
 global.key = ''
 
 // Cuentas
-const response = await fetch('https://raw.githubusercontent.com/anthony2303/monosexo/main/official_accounts.json')  
+const response = await fetch('https://raw.githubusercontent.com/MonovanShop/Yelkal-By-MonoSexo/main/official_accounts.json')  
 const data = await response.json()
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
